@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:vibelink;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  h2:
+    console:
+      enabled: true
+
+app:
+  spotify:
+    client-id: "ci"
+    client-secret: "cs"
+    redirect-uri: "http://127.0.0.1:8080/api/auth/callback"
+    scope: "user-read-email user-top-read playlist-modify-public playlist-modify-private"
+  frontend:
+    share-base: "https://example.com/share"
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
