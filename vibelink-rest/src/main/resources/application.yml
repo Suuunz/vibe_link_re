@@ -19,12 +19,12 @@ spring:
 
 app:
   spotify:
-    client-id: "ci"
-    client-secret: "cs"
+    client-id: "335adc1"
+    client-secret: "818dbf48"
     redirect-uri: "http://127.0.0.1:8080/api/auth/callback"
     scope: "user-read-email user-top-read playlist-modify-public playlist-modify-private"
   frontend:
-    share-base: "https://example.com/share"
+    share-base: "dd"
 
 springdoc:
   swagger-ui:

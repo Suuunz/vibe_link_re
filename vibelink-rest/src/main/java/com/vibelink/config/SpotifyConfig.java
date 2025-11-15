@@ -34,7 +34,7 @@ public class SpotifyConfig {
     @Primary
     public WebClient spotifyApiClient() {
         return WebClient.builder()
-                .baseUrl("https://api.spotify.com/v1")
+                .baseUrl("https://api.spotify.com")
                 .exchangeStrategies(ExchangeStrategies.builder()
                         .codecs(cfg -> cfg.defaultCodecs().maxInMemorySize(4 * 1024 * 1024))
                         .build())

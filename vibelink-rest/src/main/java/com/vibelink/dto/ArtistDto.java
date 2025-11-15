@@ -15,4 +15,5 @@ public class ArtistDto {
     private List<String> genres;
     private String imageUrl;
     private Integer rank;        // 순위 (1부터)
+    private Integer weight;
 }
