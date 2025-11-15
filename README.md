@@ -1,6 +1,6 @@
 # 🎵 VibeLink REST API
-Spotify Blend-like 기능을 RESTful API로 구현한 Spring Boot 3 프로젝트입니다.  
-프론트엔드와 협업 가능한 구조로 설계되었으며, Swagger를 통해 바로 테스트 가능합니다.
+Spotify api를 활용하여 spotify blend 기능을 목표로 만든 프로젝트의
+스프링부트로 구성된 rest api 서버입니다.
 
 ---
 
@@ -13,7 +13,7 @@ Spotify Blend-like 기능을 RESTful API로 구현한 Spring Boot 3 프로젝트
 
 ---
 
-## ⚙️ 실행 방법
+## ⚙️ Swagger api 테스트 방법
 
 ### 1. Spotify Developer 설정
 - [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)에서 새 앱 생성
